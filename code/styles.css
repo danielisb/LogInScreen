@@ -2,7 +2,7 @@
 
 
 html {
-  background-image: url('../imgs/logInBackground2.png');
+  background-image: url('../imgs/logInBackground.png');
   background-position: center;
   background-size: 150%;
 }
@@ -50,7 +50,7 @@ a.faqFormHover {
   font-weight: 400;
 }
 
-/* Icon Ares */
+/* Icon */
 img.centerImage {
   display: block;
   margin-left: auto;
