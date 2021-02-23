@@ -1,29 +1,22 @@
-<html>
-  <head><title>LogIn</title></head>
-
-  <body>
-    
-    </div>
-  </body>
-</html>
-
 <!DOCTYPE html>
-<html>
 <head>
   <link rel="stylesheet" href="styles.css">
+  <title>Log In</title>
 </head>
 <body>
-
   <div class="wrapper fadeInDown">
     <div id="formContent">
-      <!-- Tabs Titles -->
-      <h2 class="active"> Log In </h2>
-      <!-- <h2 class="inactive underlineHover">Sign Up </h2> -->
 
       <!-- Login Form -->
       <form>
-        <input type="text" id="login" class="fadeIn second" name="username" placeholder="username">
-        <input type="text" id="password" class="fadeIn third" name="login" placeholder="password">
+        <p class="logTitle">Username:</p>
+        <input type="text" id="login" class="fadeIn second" name="username" placeholder=" ">
+
+        <p class="logTitle">Password:</p>
+        <input type="password" id="password" class="fadeIn third" name="login" placeholder=" ">
+
+        <label class="remindLog"> <input type="checkbox"/> Keep me signed in </label>
+
         <input type="submit" class="fadeIn fourth" value="Log In">
       </form>
   
@@ -39,10 +32,9 @@
 
       <!-- Ares Icon -->
       <div class="fadeIn first">
-        <img src="../imgs/iconAres.png" id="icon" alt="Ares logo" />
+        <img src="../imgs/iconAres.png" id="icon" alt="Ares logo" class="centerImage"/>
       </div>
 
     </div>
-
 </body>
 </html>
